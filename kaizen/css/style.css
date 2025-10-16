@@ -1,0 +1,413 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-hamburguer img,
+.whatsapp-icon img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.logo span {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.nav-header a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px 25px;
+  }
+  .nav-header a {
+    display: none; 
+  }
+}
+.agendar {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.agendar img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+.texto-agendar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texto-agendar h1 {
+    font-size: 59px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.texto-agendar p {
+    font-size: 25px;
+    margin-bottom: 55px;
+}
+.botao-agendar {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 25px 35px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.botao-agendar:hover {
+    background-color: #e3e3e39d;
+    padding: 35px 50px;
+}
+.atendimento {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.atendimento h2 {
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+.grupos {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.grupo img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.grupo h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.grupo p {
+    font-size: 14px;
+    color: #555;
+}
+  
+.frota {
+    padding: 50px 20px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.frota-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.frota-imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.frota-texto {
+    max-width: 500px;
+}
+
+.frota-texto h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.frota-item {
+    margin-bottom: 20px;
+}
+
+.frota-item h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.frota-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+.sobre-nos {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.sobre-nos h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sobre-nos p {
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.servicos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.servico {
+  text-align: center;
+  max-width: 250px;
+}
+
+.servico img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.servico h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .servicos {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+footer {
+    background-color: #000;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-principal {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 50px 60px;
+    text-align: center;
+    max-width: 900px;
+    width: 90%;
+}
+
+.footer-principal h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.contato-numero,
+.contato-email {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 20px 60px;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%);
+}
+
+.contato-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.contato-info p {
+    color: #000;
+    font-size: 1rem;
+}
+
+.ou {
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.contato-botao {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contato-botao:hover {
+    background-color: #656565;
+}
+
+@media (max-width: 700px) {
+  .contato {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .contato-info {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .footer-principal {
+      padding: 40px 25px;
+  }
+
+  .footer-principal h2 {
+      font-size: 1.3rem;
+  }
+
+  .contato-numero,
+  .contato-email {
+      padding: 18px 40px;
+      font-size: 0.95rem;
+  }
+}
+@media (max-width: 768px) {
+    header {
+        padding: 12px 18px;
+    }   
+    .menu-hamburguer img,
+    .whatsapp-icon img {
+        width: 22px;
+        height: 22px;
+    }   
+    .logo img {
+        width: 35px;
+    }   
+    .agendar img {
+        height: 300px;
+    }
+    .texto-agendar h1 {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }   
+    .texto-agendar p {
+        font-size: 12px;
+         margin-bottom: 15px ;
+    }   
+    .botao-agendar {
+      padding: 10px 25px;
+      font-size: 0.9rem;
+    }
+}
+@media (min-width: 768px) {  
+    .agendar img {
+        height: 450px;
+    }
+    .texto-agendar h1 {
+        font-size: 27px;
+        margin-bottom: 5px;
+    }   
+    .texto-agendar p {
+        font-size: 15px;
+        margin-bottom: 15px ;
+    }   
+    .botao-agendar {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+    .grupos {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .grupo {
+        flex: 1;
+        max-width: 300px;
+    }
+}
+@media (min-width: 1024px) {  
+    .agendar img {
+        height: 800px;
+    }
+    .texto-agendar h1 {
+        font-size: 49px;
+        margin-bottom: 15px;
+    }   
+    .texto-agendar p {
+        font-size: 25px;
+        margin-bottom: 25px ;
+    } 
+    .botao-agendar {
+        padding: 20px 35px;
+        font-size: 0.9rem;
+    }
+    .atendimento h2 { 
+        font-size: 35px;
+    }
+    .grupo h3 { 
+        font-size: 25px;
+    }
+    .grupo p { 
+        font-size: 18px;
+    }
+}
