@@ -69,7 +69,7 @@ Essas escolhas tornam a navegação **fluida e agradável**, melhorando a **rete
 | Integrante | Função |
 |-------------|---------|
 | João Victor Caires Dionisio e João Pedro Alves Simmer | Designer e Desenvolvedor Front-End |
-| João Pedro Alves Simmer e João Victor Caires] | Responsável pelo protótipo no Figma |
+| João Pedro Alves Simmer e João Victor Caires | Responsável pelo protótipo no Figma |
 | João Pedro Alves Simmer e João Victor Caires| Documentação e Relatório Técnico |
 | João Pedro Alves Simmer e João Victor Caires | Testes e Responsividade |
 
