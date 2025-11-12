@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 header {
   background-color: #000;
   color: #fff;
@@ -12,7 +11,24 @@ header {
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
-
+.iframe-header{
+    width: 100%;
+    height: 118px ;
+    border: none;
+    display: flex;
+}
+.iframe-footer{
+    width: 100%;
+    height: 486px ;
+    border: none;
+    display: flex;
+}
+.iframe-section{
+    width: 100%;
+    height: 800px ;
+    border: none;
+    display: flex;    
+}
 .menu {
   position: absolute;
   left: 50%;
@@ -228,7 +244,7 @@ header {
 .servicos {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 60px;
   flex-wrap: wrap;
 }
@@ -338,32 +354,28 @@ footer {
     background-color: #656565;
 }
 
-@media (max-width: 700px) {
-  .contato {
-      flex-direction: column;
-      gap: 15px;
-  }
-
-  .contato-info {
-      flex-direction: column;
-      gap: 5px;
-  }
-
-  .footer-principal {
-      padding: 40px 25px;
-  }
-
-  .footer-principal h2 {
-      font-size: 1.3rem;
-  }
-
-  .contato-numero,
-  .contato-email {
-      padding: 18px 40px;
-      font-size: 0.95rem;
-  }
-}
 @media (max-width: 768px) {
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+.iframe-header{
+    width: 100%;
+    height: 60px ;
+    border: none;
+    display: flex;
+    }
+.iframe-footer{
+    width: 100%;
+    height: 516px ;
+    border: none;
+}
+.iframe-section{
+    width: 100%;
+    height: 300px ;
+    border: none;    
+}
     header {
         padding: 12px 18px;
     }   
@@ -391,7 +403,23 @@ footer {
       font-size: 0.9rem;
     }
 }
-@media (min-width: 768px) {  
+@media (min-width: 768px) { 
+    .iframe-header{
+    width: 100%;
+    height: 101px ;
+    border: none;
+    display: flex;
+    }
+.iframe-footer{
+    width: 100%;
+    height: 486px ;
+    border: none;
+}
+.iframe-section{
+    width: 100%;
+    height: 516px ;
+    border: none;    
+}
     .agendar img {
         height: 450px;
     }
@@ -417,7 +445,25 @@ footer {
         max-width: 300px;
     }
 }
-@media (min-width: 1024px) {  
+@media (min-width: 1024px) { 
+
+.iframe-header{
+    width: 100%;
+    height: 118px ;
+    border: none;
+    display: flex;
+    }
+.iframe-footer{
+    width: 100%;
+    height: 486px ;
+    border: none;
+}
+.iframe-section{
+    width: 100%;
+    height: 800px ;
+    border: none;    
+}
+    
     .agendar img {
         height: 800px;
     }
@@ -444,7 +490,7 @@ footer {
     }
 }
 
-    .contact-btn {
+.contact-btn {
     background-color: #4FCE5D;
     color: #000;
     padding: 15px 40px;
@@ -453,8 +499,104 @@ footer {
     font-weight: 700;
     cursor: pointer;
     }
+.formulario {
+      max-width: 490px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding-bottom: 30px;
+      overflow: hidden;
+    }
 
+    .formulario h2 {
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 20px 0px;
+      font-size: 1.4rem;
+    }
 
+    .formulario p {
+      margin: 20px;
+      color: #505050;
+      font-size: 0.95rem;
+    }
 
+    .formulario form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      width: 80%;
+      margin: 0 auto;
+    }
 
+    .formulario label {
+      width: 480px;
+      align-items: center;
+      display: block;
+      padding: 5px 0px;
+      font-weight: 900;
+    }
+    .formulario input,
+    .formulario textarea {
+      width: 380px;
+      padding: 12px 40px 12px 40px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.3s ease;
+    }
 
+    .formulario input:focus,
+    .formulario textarea:focus {
+      border-color: #000000;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .formulario textarea {
+      height: 100px;
+      resize: none;
+    }
+
+    .formulario button {
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .formulario button:hover {
+    background-color: #4FCE5D;
+    padding: 10px 35px;
+}
+.link { 
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+.skip-link {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  justify-content: center;
+  color: #ffffff;
+  background-color: black;
+  padding: 5px 0px;
+  border-radius: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.link a:hover{
+  color: #84c8ff;
+  font-weight: 600;
+}
