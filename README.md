@@ -121,13 +121,6 @@ O layout foi otimizado com **media queries** para diferentes tamanhos de tela:
 
 ---
 
-## 🖼️ Preview
-*(Adicione aqui uma imagem de visualização, se desejar)*  
-Exemplo:  
-![Preview do site Kaizen](img/preview.png)
-
----
-
 ## 🧾 Licença
 Projeto desenvolvido para fins educacionais.  
 **Todos os direitos reservados a Kaizen Transporte Executivo.**
