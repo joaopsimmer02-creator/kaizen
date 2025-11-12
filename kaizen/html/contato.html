@@ -7,88 +7,32 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-     <header>
-      <nav class="menu">
-        <ul class="nav-links">
-          <li><a href="inicio.html">Início</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="logo">
-        <img src="../img/logo.png" alt="Kaizen Logo">
-      </div>
-      <div class="whatsapp-icon">
-        <a href="https://api.whatsapp.com/send/?phone=5561982705656&text=Em+que+posso+ajudar%3F&type=phone_number&app_absent=0/">
-        <img src="../img/icone-whatsapp.png" alt="whatsapp-icone">
-        </a>
-      </div>
-    </header> 
+            				<!-- reutilização do header -->
+    <iframe class="iframe-header" src="../html/componentes/header.html"></iframe>
 
-    <main>
+    <main id="conteudo-principal">
+			    		<!-- reutilização da section agendar -->
+      <iframe class="iframe-section" src="../html/componentes/section.html"></iframe>
 
-      <section class="agendar">
-				<img src="../img/mercedez.png" alt="Carro executivo">
-					<div class="texto-agendar">
-					<h1>TRANSPORTE EXECUTIVO<br>COM CONFORTO E SEGURANÇA</h1>
-					<p>Atendimento personalizado para empresas e eventos em todo o estado.</p>
-           <a href="https://api.whatsapp.com/send/?phone=5561982705656&text=Em+que+posso+ajudar%3F&type=phone_number&app_absent=0/">
-					<button class="botao-agendar">AGENDE AGORA</button>
-          </a>
-				</div>
-			</section>
       <section class="formulario">
         <h2>CONTATO</h2>
         <p>Preencha nosso formulário online e receba uma proposta personalizada.!</p>
     
-  <form
-  action="https://formspree.io/f/xdkyonrp"
-  method="POST"
-  
-></form>
-<label> 
-  Seu Nome:
-  <input type="text" name="nome" id="nome" required>
-</label>
+        <form action="https://formspree.io/f/xdkyonrp" method="POST">
+          <label for="nome">Seu Nome:</label>
+          <input type="text" name="nome" id="nome" required>
 
-<label>
-    Seu email:
-    <input type="email" name="email">
-  </label>
+          <label for="email">Seu email:</label>
+          <input type="email" name="email" id="email">
 
-  <label>
-    Mensagem:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Enviar</button>
-</form>
+          <label for="message">Mensagem:</label>
+          <textarea name="message" id="message"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
       </section>
-      <footer>
-        <div class="footer-principal">
-            <h2>Entre em Contato e Solicite um Orçamento Personalizado!</h2>
-        
-            <div class="contato">
-              <div class="contato-numero">
-                <span>61 98270-5656</span>
-              </div>
-              <div class="contato-email">
-                <span>kaizenexecutivo@gmail.com</span>
-              </div>
-            </div>
-          
-            <div class="contato-info">
-              <p><strong>Ligue</strong></p>
-              <p><strong>Envie um E-mail</strong></p>
-            </div>
-          
-            <p class="ou">OU</p>
-          
-            <a href="https://api.whatsapp.com/send/?phone=5561982705656&text=Em+que+posso+ajudar%3F&type=phone_number&app_absent=0/">
-            <button class="contact-btn">ENTRAR EM CONTATO</button>
-            </a>
-        </div>
-      </footer>
     </main>
+            <!-- reutilização do footer -->
+  <iframe class="iframe-footer" src="../html/componentes/footer.html"></iframe>
+   
 </body>
 </html>
