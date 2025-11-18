@@ -199,4 +199,52 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em HTML e 
 *(Texto pronto para editar)*  
 Durante o projeto, desenvolvi melhor minhas habilidades técnicas, especialmente no uso de HTML, CSS e na organização dos arquivos. O conceito mais desafiador para mim foi entender os fluxos de navegação com iframes e como cada página se conectava. Senti que evoluí bastante na compreensão da estrutura do site e na colaboração em um projeto compartilhado. Trabalhar em dupla foi importante para dividir responsabilidades e alinhar decisões ao longo do processo. Nosso maior desafio foi lidar com erros de carregamento e caminhos quebrados, mas resolvemos com testes e ajustes até tudo funcionar corretamente. Se pudesse refazer algo, teria planejado a estrutura com mais antecedência para evitar retrabalho.
 
+---
+
+## 🤝 Reflexão da Dupla – Evolução, Feedbacks e Relevância
+
+### 🚀 Evolução do Projeto
+O projeto evoluiu significativamente desde a Parte 1. Começamos apenas com o wireframe e a estrutura inicial das páginas, e ao longo das etapas adicionamos design, componentes reutilizáveis, responsividade e integração com formulário. As maiores melhorias foram a organização das pastas, a padronização visual do site, a correção dos caminhos relativos dos iframes e a implementação final do layout profissional da Kaizen. O resultado final atende completamente à proposta inicial: criar um site moderno, claro e funcional para apresentar os serviços de transporte executivo.
+
+### 🗣️ Feedbacks Recebidos
+Os feedbacks dos colegas ajudaram bastante, principalmente em relação à clareza dos textos, ao contraste visual e à importância de manter um padrão entre as páginas. Os comentários mais úteis foram os que apontaram ajustes simples, como reorganizar margens, alinhar elementos e melhorar o botão de contato. Esses feedbacks contribuíram diretamente para deixar o site mais limpo e agradável. Pretendemos aplicar essas sugestões em versões futuras, incluindo melhorias na acessibilidade e, possivelmente, substituindo iframes por outra solução mais robusta.
+
+### 💼 Relevância para o Negócio
+Acreditamos que o site realmente agregaria valor ao pequeno negócio escolhido, pois transmite profissionalismo, organização e facilidade de contato — pontos essenciais para um serviço de transporte executivo. Se pudéssemos apresentá-lo ao dono da empresa, destacaríamos que o site reforça a credibilidade da marca e facilita a captação de novos clientes. Sim, usaríamos este projeto no portfólio, pois ele demonstra domínio de HTML, CSS, responsividade, trabalho em equipe, organização de pastas, resolução de problemas e capacidade de entregar um site completo e funcional.
+
+---
+
+
+## 🔮 Próximos Passos e Melhorias Futuras
+
+### 🛠️ Melhorias Técnicas Planejadas
+- [ ] Implementar menu hambúrguer funcional no mobile.
+- [ ] Adicionar novas funcionalidades interativas no site
+- [ ] Melhorar a acessibilidade, incluindo textos alternativos mais completos e melhor contraste
+- [ ] Implementar pequenas animações e interações usando JavaScript
+- [ ] Aprender e aplicar um framework moderno como **React** ou **Vue** em uma próxima versão do projeto
+
+---
+
+### 📚 Conhecimentos a Aprofundar
+- Aprofundar em boas práticas de acessibilidade seguindo as diretrizes **WCAG**
+- Estudar animações avançadas com **CSS** e microinterações
+- Entender melhor manipulação de API e integração com back-end
+- Melhorar organização de projetos utilizando **Git** e versionamento colaborativo
+- Aprender sobre componentes reutilizáveis sem iframes (templating ou frameworks)
+
+---
+
+### 🎓 Aplicação em Disciplinas Futuras
+Os aprendizados deste projeto serão úteis em várias próximas disciplinas.  
+Pretendemos aplicar:
+
+- Melhor organização de código e estrutura de pastas em futuros trabalhos
+- Uso adequado de responsividade e acessibilidade em qualquer interface que formos desenvolver
+- Integração de formulários reais com back-end ou serviços externos
+- Conhecimentos de versionamento com Git em projetos colaborativos
+- Evolução para frameworks modernos, ampliando a complexidade e qualidade dos próximos projetos
+
+Este projeto servirá como base para desenvolver sites mais completos, profissionais e tecnicamente consistentes ao longo do curso.
+
 
