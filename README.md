@@ -36,6 +36,7 @@ O site tem como objetivo apresentar esses serviços, transmitir profissionalismo
 ---
 
 ## 📁 Estrutura de Pastas Explicada
+
 kaizen/
 │
 ├── html/
@@ -48,8 +49,9 @@ kaizen/
 │ └── footer.html → Rodapé com contatos (reutilizável)
 │
 ├── css/
-│ └── style.css → Estilos principais, paleta, responsividade
-│ └── style.min.css → minificação do css
+│ ├── style.css → Estilos principais, paleta, responsividade
+│ └── style.min.css → Versão minificada do CSS
+│
 ├── img/
 │ ├── logo.png
 │ ├── favicon.png
