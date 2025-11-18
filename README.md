@@ -113,8 +113,8 @@ http://127.0.0.1:5500
 ---
 
 # 🌍 Acesso ao site  
-🔗 **GitHub Pages**: (https://joaopsimmer02-creator.github.io/kaizen/) 
-🖼️ **Preview** :
+-🔗 **GitHub Pages**: (https://joaopsimmer02-creator.github.io/kaizen/) 
+-🖼️ **Preview** :
 <img width="1895" height="902" alt="image" src="https://github.com/user-attachments/assets/edc439a1-c4a3-4440-87a4-0735ba917ac1" />
 
 
