@@ -115,9 +115,72 @@ http://127.0.0.1:5500
 # 🌍 Acesso ao site  
 -🔗 **GitHub Pages**: (https://joaopsimmer02-creator.github.io/kaizen/) 
 
--🖼️ **Preview** :
+-🖼️ **Preview do site** :
 <img width="1895" height="902" alt="image" src="https://github.com/user-attachments/assets/edc439a1-c4a3-4440-87a4-0735ba917ac1" />
+
+- **Data de publicação**: 18/11/2025
 
 
 ---
+
+## 🧪 Testes Realizados
+
+### ✔ Navegadores Testados
+- Google Chrome (desktop)
+- Microsoft Edge (desktop)
+- Mozilla Firefox
+- Chrome Mobile (Android)
+- Safari Mobile (iOS) *(testado via simulação)*
+
+---
+
+### ✔ Dispositivos e Resoluções Testadas
+- **Desktop 1920×1080**
+- **Notebook 1366×768**
+- **Tablet 768px**
+- **Smartphone 414px**
+- **Smartphone 360px**
+
+---
+
+### ✔ Problemas Encontrados e Soluções
+
+#### 1. **Componentes via iframe não apareciam no GitHub Pages**
+- **Problema:** Caminhos relativos não funcionavam após publicar.
+- **Causa:** GitHub Pages exige caminhos relativos exatos a partir da raiz do repositório.  
+- **Solução:** Ajuste dos caminhos para `../componentes/header.html`, `../componentes/footer.html`, etc., respeitando a estrutura real publicada.
+
+#### 2. **Footer funcionava em apenas uma página**
+- **Problema:** O footer aparecia somente em *inicio.html*.  
+- **Causa:** O caminho para o arquivo `footer.html` estava incorreto nas outras páginas.  
+- **Solução:** Uniformização dos caminhos relativos nas três páginas.
+
+#### 3. **Imagens não carregando no Live Server**
+- **Problema:** Algumas imagens apareciam “quebradas”.  
+- **Causa:** A pasta `img` estava fora do local esperado.  
+- **Solução:** Reorganização da estrutura de pastas e atualização dos caminhos.
+
+#### 4. **Links do menu abrindo em nova aba**
+- **Problema:** Usuário clicava em “Início / Sobre / Contato” e o site abria outra aba.  
+- **Causa:** Atributo `target="_blank"` dentro do header.  
+- **Solução:** Remoção do atributo para que os links abram na mesma aba.
+
+---
+
+### ✔ Limitações Conhecidas
+- O uso de **iframes** pode dificultar:
+  - SEO (Google indexa páginas iframe com limitações)
+  - Ajustes avançados de responsividade
+  - Scripts que precisam atuar na página inteira
+- O GitHub Pages pode ter atrasos no carregamento de componentes por iframe.
+- No iPhone (Safari), a rolagem dentro de iframes pode depender da configuração de CSS.
+
+---
+
+### ✔ Evidências (prints dos testes)
+- 📁 **Navegadores:** `tests/navegadores/`  
+- 📁 **Dispositivos:** `tests/dispositivos/`  
+- 📁 **Problemas e correções:** `tests/problemas/`
+
+*(Apenas substituir os caminhos acima pelos nomes reais das pastas no repositório, caso sejam diferentes.)*
 
