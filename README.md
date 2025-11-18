@@ -184,3 +184,19 @@ http://127.0.0.1:5500
 
 *(Apenas substituir os caminhos acima pelos nomes reais das pastas no repositório, caso sejam diferentes.)*
 
+---
+
+## 🧩 Depoimentos dos Integrantes – Aprendizados e Experiência
+
+---
+
+# 👤 Integrante 1 – João Pedro Alves Simmer
+Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em HTML e CSS, especialmente na organização de componentes reutilizáveis e na responsividade. O conceito mais desafiador foi trabalhar com iframes, principalmente por causa dos caminhos relativos e do comportamento no GitHub Pages. Hoje tenho muito mais domínio sobre estrutura de pastas, organização de código e resolução de problemas técnicos. Trabalhar em dupla foi positivo: dividimos bem as tarefas e mantivemos uma comunicação constante, o que facilitou bastante o andamento do projeto. O maior desafio foi fazer os iframes funcionarem corretamente em todos os ambientes, mas superamos com testes e ajustes. Se pudesse voltar atrás, evitaria o uso de iframes e adotaria outra forma de reutilizar componentes.
+
+---
+
+# 👤 Integrante 2 – João Victor Caires Dionísio
+*(Texto pronto para editar)*  
+Durante o projeto, desenvolvi melhor minhas habilidades técnicas, especialmente no uso de HTML, CSS e na organização dos arquivos. O conceito mais desafiador para mim foi entender os fluxos de navegação com iframes e como cada página se conectava. Senti que evoluí bastante na compreensão da estrutura do site e na colaboração em um projeto compartilhado. Trabalhar em dupla foi importante para dividir responsabilidades e alinhar decisões ao longo do processo. Nosso maior desafio foi lidar com erros de carregamento e caminhos quebrados, mas resolvemos com testes e ajustes até tudo funcionar corretamente. Se pudesse refazer algo, teria planejado a estrutura com mais antecedência para evitar retrabalho.
+
+
