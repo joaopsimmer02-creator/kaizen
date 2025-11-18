@@ -717,6 +717,7 @@ footer {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 .animacao {
   animation: troca-de-pagina 0.5s ease;
 }
@@ -732,3 +733,5 @@ footer {
     filter: blur(0);
   }
 }
+=======
+>>>>>>> bbf7c55e3d7c1978b1610c21a524a63de8de0a5d
