@@ -36,7 +36,7 @@ O site tem como objetivo apresentar esses serviços, transmitir profissionalismo
 ---
 
 ## 📁 Estrutura de Pastas Explicada
-
+```
 kaizen/
 │
 ├── html/
@@ -62,7 +62,7 @@ kaizen/
 │ └── demais imagens utilizadas
 │
 └── README.md
-
+```
 
 ---
 
