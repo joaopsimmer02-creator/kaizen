@@ -1,7 +1,8 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
+
 header {
   background-color: #000;
   color: #fff;
@@ -11,24 +12,29 @@ header {
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
-.iframe-header{
-    width: 100%;
-    height: 118px ;
-    border: none;
-    display: flex;
+
+
+.iframe-header {
+  width: 100%;
+  height: 118px;
+  border: none;
+  display: flex;
 }
-.iframe-footer{
-    width: 100%;
-    height: 486px ;
-    border: none;
-    display: flex;
+
+.iframe-footer {
+  width: 100%;
+  height: 486px;
+  border: none;
+  display: flex;
 }
-.iframe-section{
-    width: 100%;
-    height: 800px ;
-    border: none;
-    display: flex;    
+
+.iframe-section {
+  width: 100%;
+  height: 800px;
+  border: none;
+  display: flex;
 }
+
 .menu {
   position: absolute;
   left: 50%;
@@ -38,7 +44,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 125px; 
+  gap: 125px;
 }
 
 .nav-links li a {
@@ -49,10 +55,25 @@ header {
   transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-  color: #ccc; 
+.nav-links li a {
+  position: relative;
 }
 
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: #4FCE5D;
+  /* verde do WhatsApp */
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
 
 .whatsapp-icon img {
   width: 40px;
@@ -69,7 +90,8 @@ header {
 
 .logo {
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
+  ;
   gap: 5px;
 }
 
@@ -95,131 +117,133 @@ header {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  header {
-    padding: 15px 25px;
-  }
-  .nav-header a {
-    display: none; 
-  }
-}
+
+
 .agendar {
-    position: relative;
-    text-align: center;
-    color: #fff;
+  position: relative;
+  text-align: center;
+  color: #fff;
 }
+
 .agendar img {
-    width: 100%;
-    height: auto;
-    filter: brightness(50%);
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
 }
+
 .texto-agendar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .texto-agendar h1 {
-    font-size: 59px;
-    font-weight: 700;
-    margin-bottom: 15px;
+  font-size: 59px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
+
 .texto-agendar p {
-    font-size: 25px;
-    margin-bottom: 55px;
+  font-size: 25px;
+  margin-bottom: 55px;
 }
+
 .botao-agendar {
-    background-color: #4FCE5D;
-    color: #000;
-    border: none;
-    padding: 25px 35px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 20px;
+  background-color: #4FCE5D;
+  color: #000;
+  border: none;
+  padding: 25px 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
 }
+
 .botao-agendar:hover {
-    background-color: #4FCE5D;
-    padding: 35px 50px;
+  background-color: #4FCE5D;
+  padding: 35px 50px;
 }
+
 .atendimento {
-    text-align: center;
-    padding: 50px 20px;
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .atendimento h2 {
-    font-size: 24px;
-    margin-bottom: 70px;
+  font-size: 24px;
+  margin-bottom: 70px;
 }
 
 .grupos {
-    display: flex;
-    flex-direction: column; 
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .grupo img {
-    width: 60px;
-    margin-bottom: 15px;
+  width: 60px;
+  margin-bottom: 15px;
 }
 
 .grupo h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .grupo p {
-    font-size: 14px;
-    color: #555;
+  font-size: 14px;
+  color: #555;
 }
-  
+
 .frota {
-    padding: 50px 20px;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
+  padding: 50px 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
 }
 
 .frota-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .frota-imagem img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    object-fit: cover;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
 
 .frota-texto {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .frota-texto h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #111;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #111;
 }
 
 .frota-item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .frota-item h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-    color: #222;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #222;
 }
 
 .frota-item p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
 }
+
 .sobre-nos {
   text-align: center;
   padding: 60px 20px;
@@ -272,316 +296,408 @@ header {
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .servicos {
-    flex-direction: column;
-    gap: 40px;
-  }
-}
 footer {
-    background-color: #000;
-    padding: 60px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  height: 454px;
 }
 
-
-.footer-principal {
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 50px 60px;
-    text-align: center;
-    max-width: 900px;
-    width: 90%;
+.cima-footer {
+  max-width: 1400px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding: 40px 0;
 }
 
-.footer-principal h2 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 40px;
+.footer-logo img {
+  width: 120px;
+  display: block;
+  margin: 0 auto 0 auto;
 }
 
-.contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    margin-bottom: 20px;
+.footer-logo p {
+  font-size: 22px;
+  font-weight: bold;
+  max-width: 420px;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 18px;
 }
 
-.contato-numero,
-.contato-email {
-    background-color: #000;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1rem;
-    padding: 20px 60px;
-    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%);
+.footer-servicos h5,
+.footer-contato h5 {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-.contato-info {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
+.footer-servicos p,
+.footer-contato p {
+  font-size: 20px;
+  margin: 18px 0;
+}
+.icone-insta {
+  padding-top: 2px;
+  width: 20px;
+}
+.footer-contato a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.contato-info p {
-    color: #000;
-    font-size: 1rem;
+.footer-contato button {
+  background-color: #00ff4c;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.ou {
-    font-weight: 700;
-    color: #000;
-    margin: 15px 0;
-    font-size: 1rem;
+.footer-contato button a {
+  color: #000;
+  text-decoration: none;
 }
 
-.contato-botao {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 15px 40px;
-    border-radius: 10px;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
+.baixo-footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  border-top: 2px solid #555;
+  margin-top: 30px;
 }
 
-.contato-botao:hover {
-    background-color: #656565;
+.baixo-footer h5 {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
-.nav-links {
+  .formulario {
+  max-width: 100%;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+.formulario h2 {
+  font-size: 1.2rem;
+}
+
+.formulario p {
+  font-size: 0.9rem;
+}
+
+.formulario label {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 5px 0;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 15px;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.cima-footer {
+  margin: 0 auto; 
+  display: block;
+  align-items: flex-start;
+  text-align: left;
+  padding: 40px 0;
+  align-items: center;
+}
+.footer-logo,
+.footer-contato,
+.footer-servicos {
+  padding: 30px 0px;
+
+}
+.footer-logo p {
+  font-weight: bold;
+  max-width: 100%;
+  margin-top: 18px;
+}
+.footer-servicos,
+.footer-contato {
+  text-align: center;
+}
+  .nav-links {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
-.iframe-header{
-    width: 100%;
-    height: 60px ;
-    border: none;
-    display: flex;
-    }
-.iframe-footer{
-    width: 100%;
-    height: 516px ;
-    border: none;
-}
-.iframe-section{
-    width: 100%;
-    height: 300px ;
-    border: none;    
-}
-    header {
-        padding: 12px 18px;
-    }   
-    .menu-hamburguer img,
-    .whatsapp-icon img {
-        width: 22px;
-        height: 22px;
-    }   
-    .logo img {
-        width: 35px;
-    }   
-    .agendar img {
-        height: 300px;
-    }
-    .texto-agendar h1 {
-        font-size: 19px;
-        margin-bottom: 5px;
-    }   
-    .texto-agendar p {
-        font-size: 12px;
-         margin-bottom: 15px ;
-    }   
-    .botao-agendar {
-      padding: 10px 25px;
-      font-size: 0.9rem;
-    }
-}
-@media (min-width: 768px) { 
-    .iframe-header{
-    width: 100%;
-    height: 101px ;
-    border: none;
-    display: flex;
-    }
-.iframe-footer{
-    width: 100%;
-    height: 486px ;
-    border: none;
-}
-.iframe-section{
-    width: 100%;
-    height: 516px ;
-    border: none;    
-}
-    .agendar img {
-        height: 450px;
-    }
-    .texto-agendar h1 {
-        font-size: 27px;
-        margin-bottom: 5px;
-    }   
-    .texto-agendar p {
-        font-size: 15px;
-        margin-bottom: 15px ;
-    }   
-    .botao-agendar {
-        padding: 10px 25px;
-        font-size: 0.9rem;
-    }
-    .grupos {
-        flex-direction: row;
-        justify-content: center;
-    }
 
-    .grupo {
-        flex: 1;
-        max-width: 300px;
-    }
-}
-@media (min-width: 1024px) { 
-
-.iframe-header{
+  .iframe-header {
     width: 100%;
-    height: 118px ;
+    height: 59px;
     border: none;
     display: flex;
-    }
-.iframe-footer{
+  }
+
+  .iframe-footer {
     width: 100%;
-    height: 486px ;
+    height: 1060px;
     border: none;
-}
-.iframe-section{
+    background-color: black;
+  }
+
+  .iframe-section {
     width: 100%;
-    height: 800px ;
-    border: none;    
+    height: 300px;
+    border: none;
+  }
+
+  header {
+    padding: 12px 18px;
+  }
+
+  .menu-hamburguer img,
+  .whatsapp-icon img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .logo img {
+    width: 35px;
+  }
+
+  .agendar img {
+    height: 300px;
+  }
+
+  .texto-agendar h1 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+
+  .texto-agendar p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .botao-agendar {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
 }
-    
-    .agendar img {
-        height: 800px;
-    }
-    .texto-agendar h1 {
-        font-size: 49px;
-        margin-bottom: 15px;
-    }   
-    .texto-agendar p {
-        font-size: 25px;
-        margin-bottom: 25px ;
-    } 
-    .botao-agendar {
-        padding: 20px 35px;
-        font-size: 0.9rem;
-    }
-    .atendimento h2 { 
-        font-size: 35px;
-    }
-    .grupo h3 { 
-        font-size: 25px;
-    }
-    .grupo p { 
-        font-size: 18px;
-    }
+
+@media (min-width: 768px) {
+  .iframe-header {
+    width: 100%;
+    height: 59px;
+    border: none;
+    display: flex;
+  }
+
+  .iframe-footer {
+    width: 100%;
+    height: 486px;
+    border: none;
+  }
+
+  .iframe-section {
+    width: 100%;
+    height: 516px;
+    border: none;
+  }
+
+  .agendar img {
+    height: 450px;
+  }
+
+  .texto-agendar h1 {
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+
+  .texto-agendar p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .botao-agendar {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+
+  .grupos {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .grupo {
+    flex: 1;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .iframe-header {
+    width: 100%;
+    height: 100px;
+    border: none;
+    display: flex;
+  }
+
+  .iframe-footer {
+    width: 100%;
+    height: 514px;
+    border: none;
+  }
+  .link {
+    padding: 5px 0px;
+  }
+  .iframe-section {
+    width: 100%;
+    height: 800px;
+    border: none;
+  }
+  .nav-links li a{
+    font-size: 25px;
+  }
+  .agendar img {
+    height: 800px;
+  }
+  .texto-agendar h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .texto-agendar p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .botao-agendar {
+    padding: 20px 35px;
+    font-size: 0.9rem;
+  }
+
+  .atendimento h2 {
+    font-size: 35px;
+  }
+
+  .grupo h3 {
+    font-size: 25px;
+  }
+
+  .grupo p {
+    font-size: 18px;
+  }
 }
 
 .contact-btn {
-    background-color: #4FCE5D;
-    color: #000;
-    padding: 15px 40px;
-    border-radius: 10px;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-    }
-.formulario {
-      max-width: 490px;
-      margin: 60px auto;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      padding-bottom: 30px;
-      overflow: hidden;
-    }
-
-    .formulario h2 {
-      background: black;
-      color: white;
-      margin: 0;
-      padding: 20px 0px;
-      font-size: 1.4rem;
-    }
-
-    .formulario p {
-      margin: 20px;
-      color: #505050;
-      font-size: 0.95rem;
-    }
-
-    .formulario form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    .formulario label {
-      width: 480px;
-      align-items: center;
-      display: block;
-      padding: 5px 0px;
-      font-weight: 900;
-    }
-    .formulario input,
-    .formulario textarea {
-      width: 380px;
-      padding: 12px 40px 12px 40px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 0.95rem;
-      outline: none;
-      transition: all 0.3s ease;
-    }
-
-    .formulario input:focus,
-    .formulario textarea:focus {
-      border-color: #000000;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-    }
-
-    .formulario textarea {
-      height: 100px;
-      resize: none;
-    }
-
-    .formulario button {
-      background: black;
-      color: white;
-      border: none;
-      border-radius: 20px;
-      padding: 10px 30px;
-      cursor: pointer;
-      font-size: 1rem;
-      transition: 0.3s;
-    }
-
-    .formulario button:hover {
-    background-color: #4FCE5D;
-    padding: 10px 35px;
+  background-color: #4FCE5D;
+  color: #000;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
 }
-.link { 
+
+.formulario {
+  max-width: 490px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.formulario h2 {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 20px 0px;
+  font-size: 1.4rem;
+}
+
+.formulario p {
+  margin: 20px;
+  color: #505050;
+  font-size: 0.95rem;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formulario label {
+  width: 480px;
+  align-items: center;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 900;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 380px;
+  padding: 12px 40px 12px 40px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.formulario textarea {
+  height: 100px;
+  resize: none;
+}
+
+.formulario button {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #4FCE5D;
+  padding: 10px 35px;
+}
+
+.link {
   text-align: center;
   background-color: black;
   width: 100%;
 }
+
 .skip-link {
   width: 100%;
   height: 30px;
@@ -596,11 +712,23 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-.link a:hover{
+.link a:hover {
   color: #84c8ff;
   font-weight: 600;
-<<<<<<< HEAD
 }
-=======
+
+.animacao {
+  animation: troca-de-pagina 0.5s ease;
 }
->>>>>>> 14cb7ad (Atualizando codigo)
+
+@keyframes troca-de-pagina {
+  from {
+    opacity: 0.9;
+    filter: blur(2px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
