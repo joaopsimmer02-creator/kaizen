@@ -4,7 +4,7 @@
 | Integrante | Papel |
 |-----------|--------|
 | **João Pedro Alves Simmer** | Desenvolvedor Front-End, prototipagem, testes, conteúdo, repositório Git e GitHub |
-| **João Victor Caires Dionísio** | Desenvolvedor Front-End, Estrutura HTML, CSS, UI e Responsividade |
+| **João Victor Caires Dionísio** | Desenvolvedor Front-End, Estrutura HTML, CSS, testes, UI e Responsividade |
 
 ---
 
