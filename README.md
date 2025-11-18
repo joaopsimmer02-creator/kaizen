@@ -113,7 +113,6 @@ http://127.0.0.1:5500
 ---
 
 # 🌍 GitHub Pages  
-🔗 **(Espaço reservado — adicionar link quando publicar o site.)**
-
+🔗 (https://joaopsimmer02-creator.github.io/kaizen/)
 ---
 
