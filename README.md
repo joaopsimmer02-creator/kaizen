@@ -198,21 +198,14 @@ Ao longo do desenvolvimento deste projeto, refinei minhas competências em HTML 
 ---
 
 # 👤 Integrante 2 – João Victor Caires Dionísio
-*(Texto pronto para editar)*  
-Durante o projeto, desenvolvi melhor minhas habilidades técnicas, especialmente no uso de HTML, CSS e na organização dos arquivos. O conceito mais desafiador para mim foi entender os fluxos de navegação com iframes e como cada página se conectava. Senti que evoluí bastante na compreensão da estrutura do site e na colaboração em um projeto compartilhado. Trabalhar em dupla foi importante para dividir responsabilidades e alinhar decisões ao longo do processo. Nosso maior desafio foi lidar com erros de carregamento e caminhos quebrados, mas resolvemos com testes e ajustes até tudo funcionar corretamente. Se pudesse refazer algo, teria planejado a estrutura com mais antecedência para evitar retrabalho.
+
+Ao longo deste semestre, desenvolvi muito minhas habilidades em front-end, aprendendo a estruturar páginas com HTML e CSS, organizar pastas de forma mais profissional e criar layouts responsivos usando tanto Media Queries quanto a abordagem Mobile First. Também aprendi a interpretar e transformar wireframes do Figma em código, além de publicar projetos no GitHub Pages utilizando Git e GitHub para versionamento. Passei a ter mais cuidado com acessibilidade, usando atributos alt corretamente e aplicando pequenos detalhes visuais como efeitos de hover. Mesmo sem usar JavaScript, consegui trabalhar bem com componentes estáticos e entender como manter um padrão visual consistente. No geral, evoluí bastante no desenvolvimento, na organização do projeto e na forma de pensar interfaces, ganhando mais confiança para enfrentar projetos futuros.
 
 ---
 
 ## 🤝 Reflexão da Dupla – Evolução, Feedbacks e Relevância
 
-### 🚀 Evolução do Projeto
-O projeto evoluiu significativamente desde a Parte 1. Começamos apenas com o wireframe e a estrutura inicial das páginas, e ao longo das etapas adicionamos design, componentes reutilizáveis, responsividade e integração com formulário. As maiores melhorias foram a organização das pastas, a padronização visual do site, a correção dos caminhos relativos dos iframes e a implementação final do layout profissional da Kaizen. O resultado final atende completamente à proposta inicial: criar um site moderno, claro e funcional para apresentar os serviços de transporte executivo.
-
-### 🗣️ Feedbacks Recebidos
-Os feedbacks dos colegas ajudaram bastante, principalmente em relação à clareza dos textos, ao contraste visual e à importância de manter um padrão entre as páginas. Os comentários mais úteis foram os que apontaram ajustes simples, como reorganizar margens, alinhar elementos e melhorar o botão de contato. Esses feedbacks contribuíram diretamente para deixar o site mais limpo e agradável. Pretendemos aplicar essas sugestões em versões futuras, incluindo melhorias na acessibilidade e, possivelmente, substituindo iframes por outra solução mais robusta.
-
-### 💼 Relevância para o Negócio
-Acreditamos que o site realmente agregaria valor ao pequeno negócio escolhido, pois transmite profissionalismo, organização e facilidade de contato — pontos essenciais para um serviço de transporte executivo. Se pudéssemos apresentá-lo ao dono da empresa, destacaríamos que o site reforça a credibilidade da marca e facilita a captação de novos clientes. Sim, usaríamos este projeto no portfólio, pois ele demonstra domínio de HTML, CSS, responsividade, trabalho em equipe, organização de pastas, resolução de problemas e capacidade de entregar um site completo e funcional.
+Desde o início, o projeto passou por uma evolução considerável, transformando-se de um simples wireframe em um site completo com design melhorado, componentes reutilizáveis, responsividade, estrutura de pastas organizada e ajustes significativos nos caminhos dos iframes. Isso resultou em um layout profissional que está em sintonia com a proposta da Kaizen.  Os feedbacks recebidos foram fundamentais para aprimorar a clareza, o contraste, o alinhamento e os elementos de contato, resultando em um visual mais limpo e coerente. Além disso, esses feedbacks inspiraram melhorias futuras, como aumentar a acessibilidade e substituir os iframes.  No âmbito empresarial, o site valoriza a transmissão de profissionalismo, simplifica o contato e fortalece a confiabilidade do serviço de transporte executivo, representando um exemplo concreto de domínio técnico e colaboração — um elemento que definitivamente merece ser incluído no portfólio.
 
 ---
 
