@@ -3,8 +3,8 @@
 ## 👥 Integrantes da Dupla e Papéis
 | Integrante | Papel |
 |-----------|--------|
-| **João Pedro Alves Simmer** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, UI, responsividade repositório Git e GitHub |
-| **João Victor Caires Dionísio** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, UI, responsividade repositório Git e GitHub |
+| **João Pedro Alves Simmer** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, repositório Git e GitHub |
+| **João Victor Caires Dionísio** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, UI, responsividade |
 ---
 
 ## 🏢 Descrição do Pequeno Negócio
@@ -192,8 +192,7 @@ http://127.0.0.1:5500
 ---
 
 # 👤 Integrante 1 – João Pedro Alves Simmer
-Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em HTML e CSS, especialmente na organização de componentes reutilizáveis e na responsividade. O conceito mais desafiador foi trabalhar com iframes, principalmente por causa dos caminhos relativos e do comportamento no GitHub Pages. Hoje tenho muito mais domínio sobre estrutura de pastas, organização de código e resolução de problemas técnicos. Trabalhar em dupla foi positivo: dividimos bem as tarefas e mantivemos uma comunicação constante, o que facilitou bastante o andamento do projeto. O maior desafio foi fazer os iframes funcionarem corretamente em todos os ambientes, mas superamos com testes e ajustes. Se pudesse voltar atrás, evitaria o uso de iframes e adotaria outra forma de reutilizar componentes.
-
+Ao longo do desenvolvimento deste projeto, refinei minhas competências em HTML e CSS, particularmente na estruturação de componentes reutilizáveis e na adaptação para diferentes tamanhos de tela.  O aspecto mais complicado foi lidar com iframes, especialmente devido aos caminhos relativos e ao funcionamento no GitHub Pages.  Atualmente, tenho muito mais controle sobre a estrutura de pastas, a organização do código e a solução de problemas técnicos.  Foi positivo trabalhar em dupla: compartilhamos as responsabilidades de forma eficiente e mantivemos uma comunicação constante, o que facilitou muito o progresso do projeto.  O maior obstáculo foi garantir o funcionamento adequado dos iframes em todos os ambientes, mas conseguimos superar isso por meio de testes e ajustes.  Se tivesse a oportunidade de voltar no tempo, optaria por não usar iframes e escolheria outra maneira de reutilizar componentes.
 ---
 
 # 👤 Integrante 2 – João Victor Caires Dionísio
