@@ -3,9 +3,8 @@
 ## 👥 Integrantes da Dupla e Papéis
 | Integrante | Papel |
 |-----------|--------|
-| **João Pedro Alves Simmer** | Desenvolvedor Front-End, prototipagem, testes, conteúdo, repositório Git e GitHub |
-| **João Victor Caires Dionísio** | Desenvolvedor Front-End, Estrutura HTML, CSS, testes, UI e Responsividade |
-
+| **João Pedro Alves Simmer** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, UI, responsividade repositório Git e GitHub |
+| **João Victor Caires Dionísio** | Desenvolvedor Front-End,  Estrutura HTML, CSS, prototipagem, testes, conteúdo, UI, responsividade repositório Git e GitHub |
 ---
 
 ## 🏢 Descrição do Pequeno Negócio
