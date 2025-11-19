@@ -153,7 +153,7 @@ http://127.0.0.1:5500
 - **Solução:** Ajuste dos caminhos para `kaizen/html/componentes/header.html`, `kaizen/html/componentes/footer.html`, etc., respeitando a estrutura real publicada.
 
 #### 2. **Footer funcionava em apenas uma página**
-- **Problema:** O footer aparecia somente em *inicio.html*.  
+- **Problema:** O footer aparecia somente em *index.html*.  
 - **Causa:** O caminho para o arquivo `footer.html` estava incorreto nas outras páginas.  
 - **Solução:** Uniformização dos caminhos relativos nas três páginas.
 
@@ -165,7 +165,7 @@ http://127.0.0.1:5500
 #### 4. **Links do menu abrindo em nova aba**
 - **Problema:** Usuário clicava em “Início / Sobre / Contato” e o site abria outra aba.  
 - **Causa:** Atributo `target="_blank"` dentro do header.  
-- **Solução:** Remoção do atributo para que os links abram na mesma aba.
+- **Solução:** Adição do atributo "_top"para que os links abram na mesma aba.
 
 ---
 
