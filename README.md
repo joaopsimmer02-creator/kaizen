@@ -94,25 +94,6 @@ kaizen/
 
 ---
 
-# ▶️ Instruções para Rodar o Projeto Localmente
-1. Baixe o repositório ou faça o clone:
-git clone https://github.com/usuario/nome-do-repositorio.git
-
-2. Abra a pasta no **VS Code**.
-
-3. Instale a extensão **Live Server** (caso ainda não tenha).
-
-4. Clique com o botão direito no arquivo **inicio.html**  
-→ opção **“Open with Live Server”**.
-
-5. O site irá abrir no navegador em:
-http://127.0.0.1:5500
-
-
-*Obs.: É importante abrir pelo Live Server porque os iframes usam caminhos relativos.*
-
----
-
 # 🌍 Acesso ao site  
 -🔗 **GitHub Pages**: (https://joaopsimmer02-creator.github.io/kaizen/) 
 
