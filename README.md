@@ -38,8 +38,8 @@ O site tem como objetivo apresentar esses serviços, transmitir profissionalismo
 ```
 kaizen/
 │
+├── index.html → Página inicial
 ├── html/
-│ ├── index.html → Página inicial
 │ ├── sobre.html → Informações da empresa
 │ ├── contato.html → Formulário + WhatsApp
 │ └── componentes/
