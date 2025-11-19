@@ -150,7 +150,7 @@ http://127.0.0.1:5500
 #### 1. **Componentes via iframe não apareciam no GitHub Pages**
 - **Problema:** Caminhos relativos não funcionavam após publicar.
 - **Causa:** GitHub Pages exige caminhos relativos exatos a partir da raiz do repositório.  
-- **Solução:** Ajuste dos caminhos para `../componentes/header.html`, `../componentes/footer.html`, etc., respeitando a estrutura real publicada.
+- **Solução:** Ajuste dos caminhos para `kaizen/html/componentes/header.html`, `kaizen/html/componentes/footer.html`, etc., respeitando a estrutura real publicada.
 
 #### 2. **Footer funcionava em apenas uma página**
 - **Problema:** O footer aparecia somente em *inicio.html*.  
