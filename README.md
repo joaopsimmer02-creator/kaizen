@@ -192,7 +192,9 @@ http://127.0.0.1:5500
 ---
 
 # 👤 Integrante 1 – João Pedro Alves Simmer
+
 Ao longo do desenvolvimento deste projeto, refinei minhas competências em HTML e CSS, particularmente na estruturação de componentes reutilizáveis e na adaptação para diferentes tamanhos de tela.  O aspecto mais complicado foi lidar com iframes, especialmente devido aos caminhos relativos e ao funcionamento no GitHub Pages.  Atualmente, tenho muito mais controle sobre a estrutura de pastas, a organização do código e a solução de problemas técnicos.  Foi positivo trabalhar em dupla: compartilhamos as responsabilidades de forma eficiente e mantivemos uma comunicação constante, o que facilitou muito o progresso do projeto.  O maior obstáculo foi garantir o funcionamento adequado dos iframes em todos os ambientes, mas conseguimos superar isso por meio de testes e ajustes.  Se tivesse a oportunidade de voltar no tempo, optaria por não usar iframes e escolheria outra maneira de reutilizar componentes.
+
 ---
 
 # 👤 Integrante 2 – João Victor Caires Dionísio
