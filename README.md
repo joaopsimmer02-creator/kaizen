@@ -160,11 +160,8 @@ kaizen/
 ---
 
 ### ✔ Evidências (prints dos testes)
-- 📁 **Navegadores:** `tests/navegadores/`  
-- 📁 **Dispositivos:** `tests/dispositivos/`  
-- 📁 **Problemas e correções:** `tests/problemas/`
-
-*(Apenas substituir os caminhos acima pelos nomes reais das pastas no repositório, caso sejam diferentes.)*
+- 📁 **Link da pasta docs:** (https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy85ZmJkMDI3OGE0MmUzOTAyL0VtbVlENWNZRHdSQXRGWXFhbUs1aGI0QmU3VVFMc0QtY0FqYkRWd08wQ3ZSVGc%5FZT0xM29rZHI&id=9FBD0278A42E3902%21s970f98690f184004b4562a6a62b985be&cid=9FBD0278A42E3902)  
+-
 
 ---
 
